@@ -1,0 +1,64 @@
+body {
+   margin: 0;
+   height: 100vh;
+   background-color: rgb(24, 92, 92);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+   color: aqua;
+
+} 
+.game{
+   width: 360px;
+   text-align: center;
+}
+.sky{
+   position: relative;
+   height: 220px; 
+   border: 2px solid #00d9ff;
+   border: radius 12px;
+   overflow: hidden;
+   margin-bottom: 10px;
+   }
+   #plane{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      font-weight: 30px;
+   }
+   #multiplier{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 28px;
+      color: gold;
+      font-weight: bold;
+   }
+   .controls button{
+      padding: 10px 15px;
+      margin: 8px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+   }
+   .controls button:first-child{
+      background: green;
+      color: white;
+   }
+   
+ .controls button:first-child{
+      background: green;
+      color: white;
+   }
+        
+    
+
+
+
+
+
+
+
+    
